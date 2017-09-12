@@ -1,0 +1,146 @@
+
+/* Header*/
+.header {
+   display: flex;
+    height: 69px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 5;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+.header span{
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/* Navigation bar*/
+.navbar {
+    margin-right: 10px;
+    
+}
+
+
+/* Body/main page */
+body {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    font-family: Helvetica, serif;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+/* Links */
+a {
+    color: seashell;
+}
+
+footer {
+    height: 200px;
+}
+
+footer h5{
+    padding-bottom: 25px;
+}
+
+footer h2 {
+    padding-bottom: 40px;
+}
+
+/* Mission statement */
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("resources/missionbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission h2, h4{
+    width: 100%;
+    background-color: black;
+}
+
+/*Tea of the month */
+.featured {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px;
+}
+
+/* List of Teas*/
+.middleContainer {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 10px;
+}
+.middleContainer img{
+    height: 200px;
+    width: 300px;
+}
+
+.middleContainer div {
+    padding: 7px;
+}
+
+/* bottom section */
+.bottomContainer{
+ display:flex;
+    flex-direction: column;
+    min-height: 400px;
+    max-width: 1200px;
+    background-image: url("resources/locationsbackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Locations */
+.locations{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.locations div {
+    width: 300px;
+    padding: 10px 0;
+}
+
+.margin {
+    background-color: black;
+    margin: 12px;
+    opacity: 1;
+}
+
+/* Footer */
+.leftFooter {
+   text-align: left;
+    margin-left: 15px;
+    padding-top: 15px;
+}
